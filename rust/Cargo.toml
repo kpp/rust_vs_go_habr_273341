@@ -1,0 +1,12 @@
+[package]
+name = "rust-2015"
+version = "0.1.0"
+authors = ["Roman Proskuryakov <humbug@deeptown.org>"]
+
+[dependencies]
+regex = "0.1.44"
+lazy_static = "0.1.15"
+
+[dependencies.hyper]
+version = "= 0.7.0"
+default-features = false
